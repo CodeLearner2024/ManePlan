@@ -5,8 +5,8 @@ export default function Home() {
     <div >
       <Header />
       <main className="acceuil" >
-        <h1>Page d'acceuil</h1>
-        <p>Bienvenue sur la page d'accueil de notre site web créé avec Next.js et TypeScript !</p>
+        <h1>Home Page</h1>
+        <p>Bienvenue sur la Home Page de notre site web créé avec Next.js et TypeScript !</p>
 
       
       </main>
