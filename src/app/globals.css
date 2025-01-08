@@ -3,36 +3,32 @@
   text-align: center;
   
 }
-
-.headerStyle{
+.headerStyle {
   display: flex;
-  background-color: #333;
-  color: #fff;
-  padding: 10px 20px;
-  text-align: right;
-  justify-content: space-between;
-  align-items:center;
-
+  justify-content: center; /* Centrer horizontalement */
+  align-items: center;    /* Centrer verticalement */
+  height: 50px;          /* Hauteur de l'en-tête (modifiez si nécessaire) */
+  background-color: #f4f4f4; /* Couleur d'arrière-plan (optionnel) */
+  background-color: cadetblue;
 }
-.navListStyle{
-  list-style-type: none;
-  padding: 0;
+
+.navStyle {
   display: flex;
+}
+
+.navListStyle {
+  display: flex;
+  list-style: none;       /* Retirer les puces de la liste */
+  padding: 0;
   margin: 0;
 }
-.navStyle{
-  display: flex;
-  justify-content: flex-end;
-  width: 50%;
-  list-style-type: none;
 
+.navItemStyle {
+  margin: 0 15px;         /* Espacement entre les éléments */
 }
-.navItemStyle{
-  margin-left: 20px;
-  color:#fff;
-  list-style: none;
-}
-.linkStyle{
-  text-decoration: none;
-  color: #fff;
+
+.linkStyle {
+  text-decoration: none;  /* Retirer le soulignement des liens */
+  color: #000;            /* Couleur des liens (modifiable) */
+  font-size: 16px;
 }
