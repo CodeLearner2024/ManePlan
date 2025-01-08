@@ -32,3 +32,11 @@
   color: #000;            /* Couleur des liens (modifiable) */
   font-size: 16px;
 }
+
+
+/* @media (max-width: 768px) {
+  .home p{
+    align-items: center;
+    display: flex;
+  }
+} */
